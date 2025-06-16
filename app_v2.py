@@ -6,6 +6,8 @@ from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 import os
 from werkzeug.utils import secure_filename
 import logging
+import psutil
+import traceback
 
 # Configurar logging
 logging.basicConfig(level=logging.DEBUG)
