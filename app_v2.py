@@ -5,6 +5,7 @@ import numpy as np
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
 import os
 from werkzeug.utils import secure_filename
+import logging
 
 # Configurar logging
 logging.basicConfig(level=logging.DEBUG)
