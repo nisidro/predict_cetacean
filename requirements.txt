@@ -1,0 +1,14 @@
+tensorflow
+numpy
+pandas
+matplotlib
+seaborn
+tqdm
+Pillow
+scikit-learn
+fastapi
+uvicorn
+gunicorn
+flask
+psutil
+
